@@ -1,4 +1,6 @@
 ## Java Console-Based Online Quiz App
+This is a console-based quiz application developed in Java.
+It asks the user 10 multiple-choice questions about Java concepts, takes input from the user, and displays the final score with feedback.
 
 # Features
 
