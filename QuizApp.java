@@ -73,23 +73,24 @@ public class QuizApp {
 
             if (answer == q.correctOption) {
                 score++;
-                System.out.println("✅ Correct!\n");
+                System.out.println(" Correct!\n");
             } else {
-                System.out.println("❌ Wrong! Correct answer: " + q.correctOption + ". " + q.options.get(q.correctOption - 1) + "\n");
+                System.out.println(" Wrong! Correct answer: " + q.correctOption + ". " + q.options.get(q.correctOption - 1) + "\n");
             }
         }
 
         System.out.println("===== Quiz Finished =====");
         System.out.println("Your Score: " + score + "/" + questions.size());
         if (score >= 8) {
-            System.out.println("🎉 Excellent work!");
+            System.out.println(" Excellent work!");
         } else if (score >= 5) {
-            System.out.println("👍 Good effort, keep practicing!");
+            System.out.println(" Good effort, keep practicing!");
         } else {
-            System.out.println("📚 You need more practice.");
+            System.out.println(" You need more practice.");
         }
 
         sc.close();
     }
 }
+
 
